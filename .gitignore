@@ -1,0 +1,46 @@
+# Secrets — NEVER commit these
+.env
+.env.*
+*.pem
+*.key
+*.cert
+secrets/
+credentials/
+.secrets
+config.local.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+.npm/
+.yarn/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data dumps — never commit raw data
+*.csv
+*.parquet
+*.jsonl
+data/
+dumps/
